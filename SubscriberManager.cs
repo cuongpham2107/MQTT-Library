@@ -48,6 +48,11 @@ namespace MqttLibrary
         {
             await LogAsync!.Invoke("Connected to broker. Waiting for commands ...", LogType.System);
         }
+        /// <summary>
+        /// Handle the incoming message
+        /// </summary>
+        /// <param name="arg"></param>
+        /// <returns></returns>
         [Obsolete]
         private async Task Client_ApplicationMessageReceivedAsync(MqttApplicationMessageReceivedEventArgs arg)
         {
@@ -112,7 +117,11 @@ namespace MqttLibrary
             }
             await _client.SubscribeAsync(topicFilters);
         }
-
+        /// <summary>
+        /// Unsubscribe from a topic
+        /// </summary>
+        /// <param name="_topic"></param>
+        /// <returns></returns>
         public async Task UnsubscribeAsync(
             string _topic
         )
@@ -153,7 +162,11 @@ namespace MqttLibrary
             await SubscribeAsync(Handlers.Keys.ToArray());
             await SubscribeRpcAsync(RpcHandlers.Keys.ToArray());
         }
-
+        /// <summary>
+        /// Handle the incoming rpc message
+        /// </summary>
+        /// <param name="_arg"></param>
+        /// <returns></returns>
         private async Task Client_ApplicationMessageReceivedRpcAsync(
             MqttApplicationMessageReceivedEventArgs _arg)
         {

@@ -24,6 +24,15 @@ public class PublishManager : ClientBase {
     {
         await _client.EnqueueAsync(_builder.Build());
     }
+    /// <summary>
+    /// Publish a message to a topic
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="_topic"></param>
+    /// <param name="_payload"></param>
+    /// <param name="_retainFlag"></param>
+    /// <param name="_qos"></param>
+    /// <returns></returns>
     public async Task PublishObjectAsync<T>(
         string _topic,
         T _payload,
@@ -41,6 +50,13 @@ public class PublishManager : ClientBase {
             .Build();
         await _client.EnqueueAsync(message);
     }
+    /// <summary>
+    /// Publish a message to a topic
+    /// </summary>
+    /// <param name="_topic"></param>
+    /// <param name="_retainFlag"></param>
+    /// <param name="_qos"></param>
+    /// <returns></returns>
     public async Task PublishNoPayloadAsync(
         string _topic, 
         bool _retainFlag = false, 
@@ -56,6 +72,14 @@ public class PublishManager : ClientBase {
             .Build();
         await _client.EnqueueAsync(message);
     }
+    /// <summary>
+    /// Publish a binary payload to a topic
+    /// </summary>
+    /// <param name="_topic"></param>
+    /// <param name="_payload"></param>
+    /// <param name="_retainFlag"></param>
+    /// <param name="_qos"></param>
+    /// <returns></returns>
     public async Task PublishBinaryAsync(
         string _topic, 
         byte[] _payload, 
@@ -72,6 +96,14 @@ public class PublishManager : ClientBase {
             .Build();
         await _client.EnqueueAsync(message);
     }
+    /// <summary>
+    /// Publish a string payload to a topic
+    /// </summary>
+    /// <param name="_topic"></param>
+    /// <param name="_payload"></param>
+    /// <param name="_retainFlag"></param>
+    /// <param name="_qos"></param>
+    /// <returns></returns>
     public async Task PublishStringAsync(
         string _topic, 
         string _payload, 
