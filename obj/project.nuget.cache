@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "J0M8pbGxCaQ=",
+  "success": true,
+  "projectFilePath": "/Users/cuongpham/development/mqtt/MqttLibrary/MqttLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/cuongpham/.nuget/packages/mqttnet/4.3.7.1207/mqttnet.4.3.7.1207.nupkg.sha512",
+    "/Users/cuongpham/.nuget/packages/mqttnet.extensions.managedclient/4.3.7.1207/mqttnet.extensions.managedclient.4.3.7.1207.nupkg.sha512",
+    "/Users/cuongpham/.nuget/packages/mqttnet.extensions.rpc/4.3.7.1207/mqttnet.extensions.rpc.4.3.7.1207.nupkg.sha512"
+  ],
+  "logs": []
+}

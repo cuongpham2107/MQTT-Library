@@ -1,0 +1,13 @@
+/Users/cuongpham/development/mqtt/MqttLibrary/bin/Debug/net8.0/MqttLibrary.deps.json
+/Users/cuongpham/development/mqtt/MqttLibrary/bin/Debug/net8.0/MqttLibrary.dll
+/Users/cuongpham/development/mqtt/MqttLibrary/bin/Debug/net8.0/MqttLibrary.pdb
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/MqttLibrary.csproj.AssemblyReference.cache
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/MqttLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/MqttLibrary.AssemblyInfoInputs.cache
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/MqttLibrary.AssemblyInfo.cs
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/MqttLibrary.csproj.CoreCompileInputs.cache
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/MqttLibrary.dll
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/refint/MqttLibrary.dll
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/MqttLibrary.pdb
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/ref/MqttLibrary.dll
+/Users/cuongpham/development/mqtt/MqttLibrary/obj/Debug/net8.0/MqttLibrary.sourcelink.json

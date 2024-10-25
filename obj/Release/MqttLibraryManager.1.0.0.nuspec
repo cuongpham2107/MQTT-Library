@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MqttLibraryManager</id>
+    <version>1.0.0</version>
+    <authors>CuongPham2107</authors>
+    <readme>README.md</readme>
+    <description>Package Description</description>
+    <repository type="git" commit="ec33cf922b4ed42d105fb3173b7408615351f217" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="MQTTnet" version="4.3.7.1207" exclude="Build,Analyzers" />
+        <dependency id="MQTTnet.Extensions.ManagedClient" version="4.3.7.1207" exclude="Build,Analyzers" />
+        <dependency id="MQTTnet.Extensions.Rpc" version="4.3.7.1207" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/cuongpham/development/mqtt/MqttLibrary/bin/Release/net8.0/MqttLibrary.dll" target="lib/net8.0/MqttLibrary.dll" />
+    <file src="/README.md" target="/README.md" />
+  </files>
+</package>

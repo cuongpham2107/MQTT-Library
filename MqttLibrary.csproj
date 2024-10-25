@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>MqttLibraryManager</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>CuongPham2107</Authors>
+    <Company>OurTher</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MQTTnet" Version="4.3.7.1207" />
+    <PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="4.3.7.1207" />
+    <PackageReference Include="MQTTnet.Extensions.Rpc" Version="4.3.7.1207" />
+    <None Include="/README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
