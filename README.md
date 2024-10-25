@@ -14,7 +14,7 @@ dotnet add package MqttLibraryManager --version 1.0.0
 using MqttLibrary;
 public class Program {    
     private static async Task Main(string[] args) {
-        MqttConfig mqttConfig = new MqttConfig();
+        MqttConfig mqttConfig = new MqttConfig(); // parameters can be URL, PORT 
         PublishManager publisher = new(mqttConfig);
         await publisher.ConnectAsync();
 
